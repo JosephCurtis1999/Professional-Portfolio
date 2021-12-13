@@ -15,6 +15,7 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 50px;
+    text-shadow: 2px 5px 5px green;
 }
     
 .header nav {
@@ -36,6 +37,7 @@ body {
 a {
     color: rgb(59, 57, 57);
     text-decoration: none;
+    text-shadow: 2px 5px 5px green;
 }
 
 img {
