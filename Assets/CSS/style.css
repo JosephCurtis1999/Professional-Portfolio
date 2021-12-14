@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 5px;
     margin: 5px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
 }
 
 body {
@@ -23,6 +25,8 @@ body {
     margin-right: 20px;
     float: right;
     font-size: 20px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
 }
 
 .header nav ul {
@@ -37,7 +41,10 @@ body {
 a {
     color: rgb(59, 57, 57);
     text-decoration: none;
-    text-shadow: 2px 5px 5px green;
+}
+
+.shadow {
+    text-shadow: 2px 5px 5px black;
 }
 
 main {
@@ -65,10 +72,22 @@ p {
 
 .card header {
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
 }
 
 .card img {
     width: 100%;
     min-width: 400px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+footer ul {
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: none;
 }
