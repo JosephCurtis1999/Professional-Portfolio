@@ -85,9 +85,12 @@ p {
     font-size: 20px;
 }
 
-main {
+.applications-area {
+    position: relative;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: row;
     margin-top: 2%;
     background-color: rgb(100, 98, 98)
 }
