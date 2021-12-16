@@ -17,15 +17,6 @@ body {
     z-index: 1;   
 }
 
-.Nav {
-    display: flex;
-    justify-content: right;
-    list-style: none;
-    margin-right: 10%;
-    font-size: 25px;
-
-}
-
 .Name {
     flex: 1 1 auto;
     margin-left: 12%;
@@ -33,6 +24,15 @@ body {
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 30px;
+}
+
+.Nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 10%;
+    font-size: 25px;
+
 }
 
 a {
@@ -71,11 +71,6 @@ a {
 h1 {
     text-align: center;
     color: white;
-}
-
-h2 {
-    text-align: center;
-    color: whitesmoke;
 }
 
 p {
@@ -133,14 +128,6 @@ p {
     height: fit-content;
 }
 
-h3 {
-    margin-bottom: 100px;
-    color: whitesmoke;
-    font-size: 30px;
-    font-weight: bolder;
-    margin-left: 60px;
-}
-
 .footer {
     flex: 1 0 0;
     padding: 50px;
@@ -149,6 +136,14 @@ h3 {
     border-color: whitesmoke;
     border-width: 10px;
     background-color: darkslategrey;
+}
+
+h2 {
+    margin-bottom: 100px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 60px;
 }
 
 footer ul {
