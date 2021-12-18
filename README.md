@@ -23,7 +23,8 @@ At the bottom of the page we have contact details including e-mail, phone and Li
 
 The following image shows the web application's appearance and functionality:
 
-(![JosephCurtiswebsitescreenshot] (https://user-images.githubusercontent.com/94229291/146652335-b27256f4-c2be-40a9-a853-32a329095b0e.jpg)
+![JosephCurtiswebsitescreenshot](https://user-images.githubusercontent.com/94229291/146652435-33835989-b8e8-4a25-82fd-2e4d83964aca.jpg)
+
 
 
 Usage
