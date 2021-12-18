@@ -199,6 +199,9 @@ html {
     footer ul {
         font-size: 10px
     }
+    .Navigation {
+        height: 120px;
+    }
 }
 
 @media all and (max-width: 1500px) {
