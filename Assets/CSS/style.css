@@ -18,11 +18,12 @@ body {
 }
 
 .custom-navbar {
-    background-color: #5e17eb;
+    background-color: transparent;
+    padding-top: 1rem;
 }
 
 .custom-navbar-menu a {
-    color: white;
+    color: #5e17eb;
     font-size: 18px;
 }
 
@@ -32,6 +33,10 @@ body {
 
 .custom-navbar-dropdown {
     background-color: #5e17eb;
+}
+
+.custom-navbar-dropdown a {
+    color: white;
 }
 
 .portfolio {
