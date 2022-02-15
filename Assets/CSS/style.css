@@ -25,6 +25,10 @@ body {
     font-size: 18px;
 }
 
-.github-icon img {
+.github-icon img, .linked-in-icon img {
     filter: invert(1);
+}
+
+.custom-navbar-dropdown {
+    background-color: #5e17eb;
 }
