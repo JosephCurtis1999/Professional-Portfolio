@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .main img {
@@ -80,6 +80,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+
     
   }
   
@@ -190,3 +191,37 @@ body {
     max-width: 30px;
 }
 
+.footer {
+  max-height: 600px;
+  width: 100%;
+  background-color: #5e17eb;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer embed {
+  min-height: 525px; 
+  min-width: 60%;
+}
+
+.footer h4 {
+  text-align: center;
+  color: white;
+  margin: auto;
+  font-size: 45px;
+}
+
+.footer img {
+  filter: invert(1);
+  max-height: 300px;
+  min-width: 200px;
+  margin-top: 4rem;
+}
+
+.CV {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
