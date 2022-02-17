@@ -70,7 +70,7 @@ body {
     height: 600px;
     border-radius: 16px;
     background-color: white;
-    box-shadow:  2px 2px 2px rgb(168, 168, 168), -2px -2px 2px rgb(168, 168, 168)
+    box-shadow:  2px 2px 4px gray, -2px -2px 4px gray;
   } 
   
 .Developer-card {

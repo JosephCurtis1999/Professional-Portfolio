@@ -16,7 +16,7 @@ h1 {
     border-radius: 4px;
     margin-top: 6rem;
     margin-left: 10%;
-    box-shadow: 2px 2px 4px #5e17eb, -2px -2px 4px #5e17eb;
+    box-shadow: 2px 2px 4px gray, -2px -2px 4px gray;
 }
 
 .Crypto-content h2 {
@@ -25,4 +25,9 @@ h1 {
     text-align: justify;
     margin: auto;
     font-size: 26px;
+}
+
+.Crypto-content a {
+    color: turquoise;
+    font-weight: 600;
 }
