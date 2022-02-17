@@ -31,3 +31,27 @@ h1 {
     color: turquoise;
     font-weight: 600;
 }
+
+h3 {
+    font-size: 45px;
+    color: #5e17eb;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.tech-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tech-info img {
+    max-height: 180px;
+    max-width: 120px;
+    filter: invert(14%) sepia(61%) saturate(7426%) hue-rotate(262deg) brightness(89%) contrast(109%);
+    margin-top: 10rem;
+}
+
+.portfolio-info {
+    margin-bottom: 8rem;
+}
