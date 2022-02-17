@@ -1,0 +1,28 @@
+h1 {
+    color: #5e17eb;
+    font-size: 45px;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.Crypto-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Crypto-content img {
+    max-width: 50%;
+    border-radius: 4px;
+    margin-top: 6rem;
+    margin-left: 10%;
+    box-shadow: 2px 2px 4px #5e17eb, -2px -2px 4px #5e17eb;
+}
+
+.Crypto-content h2 {
+    width: 30%;
+    color: #5e17eb;
+    text-align: justify;
+    margin: auto;
+    font-size: 26px;
+}
