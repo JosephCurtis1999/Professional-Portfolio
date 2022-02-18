@@ -86,3 +86,30 @@ h3 {
     }
     
   }
+
+  @media screen and (max-width: 1150px) {
+    .portfolio-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio-content img {
+       margin: auto;
+       margin-top: 4rem;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 800px) {
+    h1, h3 {
+        font-size: 28px;
+    }
+
+    .tech-info img {
+        max-height: 90px;
+        max-width: 60px;
+    }
+
+    
+  }
