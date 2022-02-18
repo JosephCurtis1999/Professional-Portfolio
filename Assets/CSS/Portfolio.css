@@ -55,3 +55,34 @@ h3 {
 .portfolio-info {
     margin-bottom: 8rem;
 }
+
+@media screen and (max-width: 1850px) {
+    .portfolio-content h2 {
+        margin-top: 4rem;
+    }
+    
+  }
+@media screen and (max-width: 1650px) {
+    .portfolio-content h2 {
+        font-size: 24px;
+        margin-top: 4rem;
+    }
+    
+  }
+
+
+@media screen and (max-width: 1250px) {
+    h1, h3 {
+      font-size: 35px;
+    
+    }
+    .portfolio-content h2 {
+        font-size: 22px;
+    }
+
+    .tech-info img {
+        max-height: 120px;
+        max-width: 80px;
+    }
+    
+  }
