@@ -251,6 +251,19 @@ a {
       width: 450px;
       height: 500px;
     }
+
+    .Developer-card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer embed {
+      width: 100%;
+    }
+
+    .CV img, h4 {
+      display: none;
+    }
     
   }
   
@@ -260,10 +273,25 @@ a {
       width: 400px;
       height: 500px;
     } 
+
+    .portfolio h1 {
+      font-size: 26px;
+    }
+
+    .portfolio p {
+      font-size: 18px;
+      width: 80%;
+      margin: auto;
+    }
     
     .Developer-card {
       display: flex;
       flex-direction: column;
+    }
+
+    .card, .card-2, .card-3 {
+      max-height: 450px;
+      max-width: 350px;
     }
   }
 
