@@ -289,6 +289,11 @@ a {
       flex-direction: column;
     }
 
+    .main {
+      max-width: 400px;
+      margin: 16rem auto;
+    }
+
     .card, .card-2, .card-3 {
       max-height: 450px;
       max-width: 350px;
