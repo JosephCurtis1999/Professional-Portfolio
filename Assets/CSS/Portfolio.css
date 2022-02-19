@@ -87,6 +87,13 @@ h3 {
     
   }
 
+  @media screen and (max-width: 1200px) {
+    
+    
+  }
+
+  
+
   @media screen and (max-width: 1150px) {
     .portfolio-content {
         display: flex;

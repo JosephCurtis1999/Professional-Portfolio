@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Archivo', sans-serif;
     height: 100%;
+    box-sizing: border-box;
 }
 
 .main {
@@ -20,6 +21,65 @@ body {
 .custom-navbar {
     background-color: transparent;
     padding-top: 1rem;
+}
+
+.custom-navbar-burger {
+  display: none;
+}
+
+header {
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #5e17eb;
+  text-decoration: none;
+}
+
+.navbar2 {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.navbar2-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.navbar-branding {
+  font-size: 2rem;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #5e17eb;
 }
 
 .custom-navbar-menu a {
@@ -128,6 +188,58 @@ body {
       margin: 100px auto 0;
       width: 275px;
       height: 500px;
+    }
+    
+    .main {
+      margin-top: 15rem;
+    }
+
+    .custom-navbar {
+      display: none;
+    }
+
+    .hamburger {
+      display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navbar2-menu {
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: transparent;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .navbar2-item {
+      margin: 16px 0;
+    }
+
+    .navbar2-menu.active {
+      left: 0;
+    }
+    
+
+  }
+
+  @media screen and (min-width: 1200px) {
+    .navbar2 {
+      display: none;
     }
     
 
