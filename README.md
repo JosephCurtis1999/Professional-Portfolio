@@ -5,25 +5,24 @@ The motivation of the project was to hone HTML and CSS skills by building a resp
 
 
 Acceptance Criteria
-developer's name, links to sections about me and how to contact me
-UI scrolls to links in the navigation bar
-UI scrolls to a section with titled image's of the developer's applications
-first application image is large than the other applications images
-resizing the page or viewing on different screens presents a responsive layout
+clean, responsive portfolio website with links to github and linkedIn
+a showcase of a few successful projects
 
 User Story
 AS a coding bootcamp student
 I wanted to build a webpage to practise and display my current skills
-Over time, I will improve and add more deployable applications to this page to showcase my skills to prospective employers
-The webpage starts with a heading and navigations bar
-It then has a large scenic image
-After this we have an About Me section with some text and an image
-We then have a section of my future deployable applications with images and text
-At the bottom of the page we have contact details including e-mail, phone and LinkedIn
+At the top of the page we have a home button, a projects dropdown menu and a linked in and github link
+As we scroll down we have a simple animation
+We then have cards with links to different pages with more details on the chosen projects
+At the bottom of the page we have a cv displayed that can also be downloaded
+
+Technology used
+HTML, CSS, Javascript, Bulma
 
 The following image shows the web application's appearance and functionality:
 
-![JosephCurtiswebsitescreenshot](https://user-images.githubusercontent.com/94229291/146652435-33835989-b8e8-4a25-82fd-2e4d83964aca.jpg)
+![ProfessionalPortfolio](https://user-images.githubusercontent.com/94229291/154822591-f4257655-ddd5-42ab-b2f1-7872731bb58b.jpg)
+
 
 
 
